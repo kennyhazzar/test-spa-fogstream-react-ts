@@ -1,3 +1,10 @@
-const App = () => <div>App</div>;
+import Routing from './pages';
+import { withProviders } from './prodivers';
 
-export default App;
+const App = () => (
+  <div>
+    <Routing />
+  </div>
+);
+
+export default withProviders(App);

@@ -3,7 +3,9 @@
     "tabWidth": 2,
     "semi": true,
     "singleQuote": true,
-    "bracketSpacing": false,
+    "singleAttributePerLine": true,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
     "useTabs": false,
     "trailingComma": "all",
     "overrides": [{

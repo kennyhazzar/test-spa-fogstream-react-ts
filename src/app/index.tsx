@@ -1,4 +1,4 @@
-import Routing from './pages';
+import Routing from '../pages';
 import { withProviders } from './prodivers';
 
 const App = () => (

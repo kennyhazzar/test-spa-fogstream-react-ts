@@ -1,9 +1,10 @@
-import { Typography } from '@mui/material';
+import { Box } from '@mui/material';
+import Header from 'shared/ui/Header';
 
 const MainPage = () => (
-  <div>
-    <Typography sx={{ fontFamily: "'Inter 400'" }}>Текст</Typography>
-  </div>
+  <Box>
+    <Header />
+  </Box>
 );
 
 export default MainPage;

@@ -1,9 +1,6 @@
 import { createTheme } from '@mui/system';
 
 export const theme = createTheme({
-  palette: {
-    mode: 'white',
-  },
   typography: {
     fontFamily: [
       'Inter 400',
